@@ -11,7 +11,7 @@ NORMAL_TOPIC = "normal-topic"
 ANOMALY_TOPIC = "anomaly-topic"
 
 # KMeans model dosyası
-MODEL_PATH = "kmeans_model.joblib"  # joblib kullanarak kaydedilen model dosyası
+MODEL_PATH = "runs/kmeans_model.joblib"  # joblib kullanarak kaydedilen model dosyası
 
 
 def load_kmeans_model():
